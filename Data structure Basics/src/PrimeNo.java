@@ -25,12 +25,19 @@ public class PrimeNo {
     }
 
 
+    void testFunction(){
+        System.out.println("Testing it");
+    }
+
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         System.out.println("enter the number");
 
         int num = Sc.nextInt();
         printPrime(num);
+
+
+
 
 
 
